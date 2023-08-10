@@ -1,15 +1,110 @@
+// React app
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
+  "store.home": {
+    "blocks": ["pharmacy-page#pharmacy-page"]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
-  }
+  "pharmacy-page#pharmacy-page": {}
 }
+
+// Native components
+// {
+//   "store.home": {
+//     "blocks": ["flex-layout.row#home-container"]
+//   },
+//   "flex-layout.row#home-container": {
+//     "children": ["flex-layout.col#home-container"],
+//     "props": {
+//       "paddingTop": 8,
+//       "paddingBottom": 8,
+//       "blockClass": "home-container"
+//     }
+//   },
+//   "flex-layout.col#home-container": {
+//     "children": [
+//       "slider-layout#text-test",
+//       "flex-layout.row#info-container"
+//     ],
+//     "props": {
+//       "width": 100
+//     }
+//   },
+
+//   "pharmacy-page#pharmacy-page": {},
+
+//   // Sections
+//   "slider-layout#text-test": {
+//     "props": {
+//       "itemsPerPage": {
+//         "desktop": 1,
+//         "tablet": 1,
+//         "phone": 1
+//       },
+//       "infinite": true,
+//       "showNavigationArrows": "desktopOnly",
+//       "blockClass": "carousel",
+//       "centerMode": "center",
+//       "arrowSize": 16
+//     },
+//     "children": ["image#carousel-1", "image#carousel-2", "image#carousel-3"]
+//   },
+
+//   "flex-layout.row#info-container": {
+//     "children": ["flex-layout.col#info-col-1", "flex-layout.col#info-col-2"],
+//     "props": { "blockClass": "info-container", "colGap": 4 }
+//   },
+
+//   "flex-layout.col#info-col-1": {
+//     "children": ["rich-text#info-title", "rich-text#info-description-1"]
+//   },
+
+//   "flex-layout.col#info-col-2": {
+//     "children": ["image#info", "rich-text#info-description-2"]
+//   },
+
+//   // Components
+//   "rich-text#info-title": {
+//     "props": {
+//       "text": "Por ti tenemos los mejores descuentos en farmacia en línea con Chedraui.",
+//       "font": "t-heading-3",
+//       "blockClass": "text-orange"
+//     }
+//   },
+
+//   "rich-text#info-description-1": {
+//     "props": {
+//       "text": "En Chedraui, adquiere todos los medicamentos que necesitas para cuidar tu salud. Aprovecha las promociones y descuentos en genéricos o similares, productos de cuidado personal, salud sexual, sueros y materiales de curación."
+//     }
+//   },
+
+//   "rich-text#info-description-2": {
+//     "props": {
+//       "text": "Además, recuerda que con el Plan Farmacia Chedraui, al comprar tres medicamentos iguales en tiendas físicas, ¡el cuarto es gratis! ¡No esperes más! Ahora ya lo sabes, pide tus medicamentos en farmacia, porque, en Chedraui, cuesta menos."
+//     }
+//   },
+
+//   "image#info": {
+//     "props": {
+//       "width": "100%",
+//       "src": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_bodegon.png"
+//     }
+//   },
+
+//   "image#carousel-1": {
+//     "props": {
+//       "maxWidth": 920,
+//       "src": "https://chedrauimx.vteximg.com.br/arquivos/BH-panales-desktop-010823.jpg"
+//     }
+//   },
+//   "image#carousel-2": {
+//     "props": {
+//       "maxWidth": 920,
+//       "src": "https://chedrauimx.vteximg.com.br/arquivos/BH-_sico-desktop-010823.jpg"
+//     }
+//   },
+//   "image#carousel-3": {
+//     "props": {
+//       "maxWidth": 920,
+//       "src": "https://chedrauimx.vteximg.com.br/arquivos/BH-_redoxon-desktop-010823.jpg"
+//     }
+//   }
+// }
