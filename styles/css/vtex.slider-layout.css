@@ -1,0 +1,20 @@
+/* .sliderLayoutContainer--carousel {
+  margin-inline: auto;
+  width: 90%;
+} */
+
+.paginationDot {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.paginationDot--isActive {
+  background-color: #f76900;
+}
+
+.sliderArrows {
+  padding: 0.6rem;
+  color: white;
+  background-color: #f76900 !important;
+  border-radius: 50%;
+}
