@@ -1,0 +1,6 @@
+{
+  "store.custom#pharmacy-landing-page": {
+    "blocks": ["pharmacy-page#pharmacy-page"]
+  },
+  "pharmacy-page#pharmacy-page": {}
+}
