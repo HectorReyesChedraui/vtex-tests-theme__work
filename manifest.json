@@ -45,7 +45,8 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "chedrauimxqa.landing-pages-app": "0.x"
+    "chedrauimxqa.landing-pages-app": "0.x",
+    "vtex.list-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

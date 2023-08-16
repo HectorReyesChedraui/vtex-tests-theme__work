@@ -1,6 +1,22 @@
 {
   "store.custom#pharmacy-landing-page": {
-    "blocks": ["pharmacy-page#pharmacy-page"]
+    "blocks": ["pharmacy-page#pharmacy-page", "list-context.product-list#demo1"]
   },
-  "pharmacy-page#pharmacy-page": {}
+
+  "pharmacy-page#pharmacy-page": {},
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["list-context-renderer#wrapped"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "2500"
+    }
+  },
+  "list-context-renderer#wrapped": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li"
+    }
+  }
 }
