@@ -1,8 +1,19 @@
 {
   "store.custom#pharmacy-landing-page": {
-    "blocks": ["pharmacy-page#pharmacy-page", "list-context.product-list#demo1"]
+    "blocks": [
+      "info-seo-section#seo-section",
+      "pharmacy-page#pharmacy-page",
+      "list-context.product-list#demo1"
+    ]
   },
-
+  "info-seo-section#seo-section": {
+    "props": {
+      "title": "Por ti tenemos los mejores descuentos en farmacia en línea con Chedraui.",
+      "image": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_bodegon.png",
+      "text1": "En Chedraui, adquiere todos los medicamentos que necesitas para cuidar tu salud. Aprovecha las promociones y descuentos en genéricos o similares, productos de cuidado personal, salud sexual, sueros y materiales de curación.",
+      "text2": "Además, recuerda que con el Plan Farmacia Chedraui, al comprar tres medicamentos iguales en tiendas físicas, <b>¡el cuarto es gratis!</b> <br/> <br/>¡No esperes más! Ahora ya lo sabes, pide tus medicamentos en farmacia, porque, en Chedraui, cuesta menos."
+    }
+  },
   "pharmacy-page#pharmacy-page": {},
 
   "list-context.product-list#demo1": {
