@@ -1,0 +1,9 @@
+.paragraph--sectionTitle {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  font: normal normal 800 22px/24px Arial;
+  font-family: "Arial Black";
+  color: #ef7d00;
+  text-align: left;
+  margin: 0;
+}

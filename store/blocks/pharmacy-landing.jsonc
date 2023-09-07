@@ -1,10 +1,75 @@
 {
   "store.custom#pharmacy-landing-page": {
-    "blocks": [
+    "blocks": ["landing-layout#container"]
+  },
+  "landing-layout#container": {
+    "children": [
+      "frame-carousel#carousel",
+      "promotion-grid#farmacia",
+      "rich-text#related-title",
+      "list-context.product-list#demo1",
+      "brands-section#brands",
       "info-seo-section#seo-section",
-      "pharmacy-page#pharmacy-page",
-      "list-context.product-list#demo1"
+      "responsive-image#promo-image",
+      "rich-text#related-title"
     ]
+  },
+  "frame-carousel#carousel": {
+    "props": {
+      "from": "https://64d28b110875eb12c0fca834--celebrated-puppy-f6ca15.netlify.app/"
+    }
+  },
+  "promotion-grid#farmacia": {},
+  "brands-section#brands": {
+    "props": {
+      "title": "Dermatológicos",
+      "titleColor": "#ef7d00",
+      "href": "/farmacia",
+      "circles": [
+        {
+          "title": "Shampoos y jabones",
+          "href": "/farmacia/medicamentos/dermatologicos",
+          "image": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_01-shampoo.png",
+          "alt": "los mejores descuentos en sahmpoos en línea con Chedraui",
+          "color": "green"
+        },
+        {
+          "title": "Limpiadores faciales",
+          "href": "/belleza/cosmeticos/desmaquillantes",
+          "image": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_02-limpiadores.png",
+          "alt": "los mejores descuentos en limpiadores faciales en línea con Chedraui",
+          "color": "orange"
+        },
+        {
+          "title": "Hidratantes",
+          "href": "/cuidado-e-higiene-personal/cuidado-facial/tratamientos-faciales",
+          "image": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_03-.png",
+          "alt": "los mejores descuentos en hidratantes en línea con Chedraui",
+          "color": "green"
+        },
+        {
+          "title": "Protectores solares",
+          "href": "/cuidado-e-higiene-personal/cuidado-corporal/bloqueadores-y-bronceadores",
+          "image": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_04-bloqueadores.png",
+          "alt": "los mejores descuentos en protectores solares en línea con Chedraui",
+          "color": "orange"
+        }
+      ]
+    }
+  },
+  "responsive-image#promo-image": {
+    "props": {
+      "imgMobile": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_banner_App_inferior.jpg",
+      "imgDesktop": "https://chedrauimx.vteximg.com.br/arquivos/farmacia_banner_inferior.jpg",
+      "imgAlt": "Farmacia Chedraui"
+    }
+  },
+  "rich-text#related-title": {
+    "props": {
+      "text": "Productos relacionados",
+      "font": "t-heading-4",
+      "blockClass": "sectionTitle"
+    }
   },
   "info-seo-section#seo-section": {
     "props": {
@@ -14,8 +79,6 @@
       "text2": "Además, recuerda que con el Plan Farmacia Chedraui, al comprar tres medicamentos iguales en tiendas físicas, <b>¡el cuarto es gratis!</b> <br/> <br/>¡No esperes más! Ahora ya lo sabes, pide tus medicamentos en farmacia, porque, en Chedraui, cuesta menos."
     }
   },
-  "pharmacy-page#pharmacy-page": {},
-
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["list-context-renderer#wrapped"],
