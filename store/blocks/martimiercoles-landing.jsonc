@@ -1,0 +1,16 @@
+{
+  "store.custom#martimiercoles": {
+    "blocks": ["landing-layout#martimiercoles-container"]
+  },
+  "landing-layout#martimiercoles-container": {
+    "children": ["martimiercoles-page", "rich-text#related-title-2"]
+  },
+  "martimiercoles-page": {},
+  "rich-text#related-title-2": {
+    "props": {
+      "text": "Productos relacionados",
+      "font": "t-heading-4",
+      "blockClass": "sectionTitle"
+    }
+  }
+}
