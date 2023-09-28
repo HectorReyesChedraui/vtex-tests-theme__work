@@ -3,14 +3,26 @@
     "blocks": ["landing-layout#martimiercoles-container"]
   },
   "landing-layout#martimiercoles-container": {
-    "children": ["martimiercoles-page", "rich-text#related-title-2"]
+    "children": [
+      "martimiercoles-banner",
+      "martimiercoles-page",
+      "rich-text#martimiercoles-shelf-title"
+    ]
   },
   "martimiercoles-page": {},
-  "rich-text#related-title-2": {
+  "martimiercoles-banner": {
     "props": {
-      "text": "Productos relacionados",
+      "bgImage": "https://chedrauimx.vteximg.com.br/arquivos/BH_1900X386.jpg",
+      "logoImage": "https://chedrauimx.vteximg.com.br/arquivos/DS_Martimiercoles_Mayo2022.svg",
+      "logoImageAlt": "Escribe el atributo Alt de la imagen del logo:"
+    }
+  },
+  "rich-text#martimiercoles-shelf-title": {
+    "props": {
+      "text": "Descubre lo mejor en frescura",
       "font": "t-heading-4",
-      "blockClass": "sectionTitle"
+      "blockClass": "sectionTitle",
+      "textColor": "c-on-blue"
     }
   }
 }

@@ -68,7 +68,8 @@
     "props": {
       "text": "Productos relacionados",
       "font": "t-heading-4",
-      "blockClass": "sectionTitle"
+      "blockClass": "sectionTitle",
+      "textColor": "c-on-orange"
     }
   },
   "info-seo-section#seo-section": {
