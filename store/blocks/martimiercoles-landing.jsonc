@@ -3,12 +3,31 @@
     "blocks": ["landing-layout#martimiercoles-container"]
   },
   "landing-layout#martimiercoles-container": {
-    "children": ["martimiercoles-page", "rich-text#related-title-2"]
+    "children": [
+      "martimiercoles-banner",
+      "contador-vigencia",
+      "martimiercoles-page",
+      "rich-text#related-title-2"
+    ]
+  },
+  "martimiercoles-banner": {
+    "props": {
+      "bgImage": "https://chedrauimx.vteximg.com.br/arquivos/BH_1900X386.jpg",
+      "logoImage": "https://chedrauimx.vteximg.com.br/arquivos/DS_Martimiercoles_Mayo2022.svg",
+      "logoImageAlt": "Logo MartiMiércoles Chedraui Cuesta Menos"
+    }
+  },
+  "contador-vigencia": {
+    "props": {
+      "title": "Descubre nuevas ofertas en",
+      "martiMiercolesTitle": "¡Los precios más dulces!",
+      "bgColor": "#80bc00"
+    }
   },
   "martimiercoles-page": {},
   "rich-text#related-title-2": {
     "props": {
-      "text": "Productos relacionados",
+      "text": "Descubre lo mejor en frescura",
       "font": "t-heading-4",
       "blockClass": "sectionTitle"
     }
