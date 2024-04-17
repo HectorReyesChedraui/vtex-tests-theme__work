@@ -5,132 +5,230 @@
   "landing-layout#motherday-container": {
     "children": [
       "header-banner#section-header",
-      "grid-sales#grid-sales-content",
+      "grid-sales#section-sales",
       "gallery-grid#section-gallery",
       "monsory-grid#section-monsory",
       "more-details#section-more",
       "blog-grid#blog-section"
-      
     ]
   },
+
   "header-banner#section-header": {
     "props": {
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg", 
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo_bh.svg",
-      "steps": [
+      "titleColor":"#fff",
+      "items": [
         {
-          "id": 1,
-          "image1": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg"
+          "title":"titulo img",
+          "alt":"Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg"
         },
         {
-          "id": 2,
-          "image2": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg"
+          "title":"titulo img",
+          "alt":"Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg"
+
         }
       ]
     }
   },
-  "grid-sales#grid-sales-content": {
+
+  "grid-sales#section-sales": {
     "props": {
       "title": "Un día especial para Mamá",
-      "steps": [
+      "titleColor": "#CE6E80",
+      "cards": [
         {
-          "id": 1,
-          "titleCards": "20%",
-          "textCard3": "De descuento",
-          "imagen1": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "bgColor": "#f6f6f6",
+          "title": "20%",
+          "subtitle": "De descuento",
+          "titleColor": "#DD756A",
           "textParrafo1": "En",
           "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas"
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
-          "id": 2,
-          "titleCards": "20%",
-          "textCard3": "De descuento",
-          "imagen2": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "bgColor": "#f6f6f6",
+          "title": "20%",
+          "subtitle": "De descuento",
+          "titleColor": "#DD756A",
           "textParrafo1": "En",
           "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas"
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
+
         },
         {
-          "id": 3,
-          "titleCards2": "Antes: $0,000",
-          "textCard2": "$000,000",
-          "imagen3": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png",
+          "bgColor": "#f6f6f6",
+          "title": "Antes: $0,000",
+          "subtitle": "$000,000",
+          "titleColor": "#DD756A",
           "textParrafo1": "En",
           "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas"
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png"
+
         },
         {
-          "id": 4,
-          "titleCards2": "2X1",
-          "textCard2": "$000,000",
-          "imagen3": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png",
+          "bgColor": "#f6f6f6",
+          "title": "2X1",
+          "subtitle": "$000,000",
+          "titleColor": "#DD756A",
           "textParrafo1": "En",
           "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas"
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png"
+
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "3X2",
+          "subtitle": "",
+          "titleColor": "#DD756A",
+          "textParrafo1": "En",
+          "textParrafo2": "marcas",
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
+        },
+        {         
+          "bgColor": "#f6f6f6",
+          "title": "3X2",
+          "subtitle": "",
+          "titleColor": "#DD756A",
+          "textParrafo1": "En",
+          "textParrafo2": "marcas",
+          "textParrafo3": "seleccionadas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         }
       ]
     }
   },
+
   "gallery-grid#section-gallery": {
     "props": {
       "title": "Radiante en todo momento",
+      "titleColor": "#fff",
       "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo.jpg",
-      "steps": [
+      "images": [
         {
-          "id": 1,
-          "image1": "https://chedrauimxqa.vteximg.com.br/arquivos/Skin-Care.jpg"
+          "title": "Skin Care",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/Skin-Care.jpg"
         },
         {
-          "id": 2,
-          "image2": "https://chedrauimxqa.vteximg.com.br/arquivos/cosmeticos.jpg"
+          "title": "Cosméticos",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cosmeticos.jpg"
         },
         {
-          "id": 3,
-          "image3": "https://chedrauimxqa.vteximg.com.br/arquivos/perfume.jpg"
+          "title": "Perfumes",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/perfume.jpg"
         },
         {
-          "id": 4,
-          "image4": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg"
+          "title": "Cabello",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg"
         }
       ]
     }
   },
-  "monsory-grid#section-monsory": {},
-
-  "more-details#section-more":{
+  
+  "monsory-grid#section-monsory": {
     "props": {
-      "title": "Comodidad en casa para mamá",
-      "bgImage": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
-      "href": "/belleza/cosmeticos/desmaquillantes",
-      "steps": [
+      "title": "Mamá activa",
+      "titleColor": "#CE6E80",
+      "images": [
         {
-          "id": 1,
-          "image1": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
-          "textImage1": "Linea blanca"
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/celulares.png",
+          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/movilCel.png",
+          "alt": "Imagen 1",
+          "title": "Celulares",
+          "href": "/ruta-destino-1"
         },
         {
-          "id": 2,
-          "image2": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
-          "textImage2": "Electrodomésticos"
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/smartwathc.png",
+          "alt": "Imagen 2",
+          "title": "Smartwatch",
+          "href": "/ruta-destino-2"
         },
         {
-          "id": 3,
-          "image3": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
-          "textImage3": "Bocimas"
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/ejercicio.png",
+          "alt": "Imagen 3",
+          "title": "Aparatos de ejercicio",
+          "href": "/ruta-destino-3"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/bici.png",
+          "alt": "Imagen 4",
+          "title": "Bicicletas",
+          "href": "/ruta-destino-4"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/audifonos.png",
+          "alt": "Imagen 5",
+          "title": "Audifonos",
+          "href": "/ruta-destino-5"
         }
-        
       ]
     }
   },
-  "blog-grid#blog-section":{
+  
+      "more-details#section-more": {
+        "props": {
+          "title": "Comodidad en casa para mamá",
+          "alt": "",
+          "image": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
+          "href": "https://example.com",
+          "images": [
+            {
+              "title": "Linea blanca",
+              "alt": "alt img",
+              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
+              "href": "https://example.com"
+            },
+            {
+              "title": "Electrodomésticos",
+              "alt": "alt img",
+              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
+              "href": "https://example.com"
+            },
+            {
+              "title": "Bocinas",
+              "alt": "alt img",
+              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
+              "href": "https://example.com"
+            }
+          ]
+        }
+      },
+    
+  "blog-grid#blog-section": {
     "props": {
       "title": "Encuentra las mejores promociones para mamá",
       "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/copy.jpg",
       "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       "text2": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi."
     }
-
   }
 }
-
