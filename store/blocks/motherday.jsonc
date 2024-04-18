@@ -18,7 +18,7 @@
       "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg", 
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "titleColor":"#fff",
-      "items": [
+      "images": [
         {
           "title":"titulo img",
           "alt":"Alt img",
