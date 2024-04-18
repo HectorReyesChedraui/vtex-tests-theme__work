@@ -46,9 +46,8 @@
           "title": "20%",
           "subtitle": "De descuento",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
@@ -58,60 +57,52 @@
           "title": "20%",
           "subtitle": "De descuento",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
-
         },
         {
           "bgColor": "#f6f6f6",
           "title": "Antes: $0,000",
           "subtitle": "$000,000",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png"
-
         },
         {
           "bgColor": "#f6f6f6",
           "title": "2X1",
           "subtitle": "$000,000",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png"
-
         },
         {
           "bgColor": "#f6f6f6",
           "title": "3X2",
           "subtitle": "",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
         },
-        {         
+        {
           "bgColor": "#f6f6f6",
           "title": "3X2",
           "subtitle": "",
           "titleColor": "#DD756A",
-          "textParrafo1": "En",
-          "textParrafo2": "marcas",
-          "textParrafo3": "seleccionadas",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
@@ -119,7 +110,7 @@
       ]
     }
   },
-
+  
   "gallery-grid#section-gallery": {
     "props": {
       "title": "Radiante en todo momento",
