@@ -7,6 +7,7 @@
       "header-banner#section-header",
       "grid-sales#section-sales",
       "gallery-grid#section-gallery",
+      "shelf-content#section-shelf-container",
       "monsory-grid#section-monsory",
       "more-details#section-more",
       "blog-grid#blog-section"
@@ -144,6 +145,13 @@
       ]
     }
   },
+
+  "shelf-content#section-shelf-container":{
+    "props": {
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg"
+    }
+  },
+
   
   "monsory-grid#section-monsory": {
     "props": {
