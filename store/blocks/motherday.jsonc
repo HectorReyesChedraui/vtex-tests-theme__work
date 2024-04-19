@@ -7,6 +7,7 @@
       "header-banner#section-header",
       "grid-sales#section-sales",
       "gallery-grid#section-gallery",
+      "list-context.product-list#demo1",
       "monsory-grid#section-monsory",
       "more-details#section-more",
       "blog-grid#blog-section"
@@ -15,22 +16,21 @@
 
   "header-banner#section-header": {
     "props": {
-      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg", 
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "titleColor":"#fff",
+      "titleColor": "#fff",
       "images": [
         {
-          "title":"titulo img",
-          "alt":"Alt img",
+          "title": "titulo img",
+          "alt": "Alt img",
           "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg"
         },
         {
-          "title":"titulo img",
-          "alt":"Alt img",
+          "title": "titulo img",
+          "alt": "Alt img",
           "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg"
-
         }
       ]
     }
@@ -110,7 +110,7 @@
       ]
     }
   },
-  
+
   "gallery-grid#section-gallery": {
     "props": {
       "title": "Radiante en todo momento",
@@ -144,7 +144,7 @@
       ]
     }
   },
-  
+
   "monsory-grid#section-monsory": {
     "props": {
       "title": "Mamá activa",
@@ -184,42 +184,70 @@
       ]
     }
   },
-  
-      "more-details#section-more": {
-        "props": {
-          "title": "Comodidad en casa para mamá",
-          "alt": "",
-          "image": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
-          "href": "https://example.com",
-          "images": [
-            {
-              "title": "Linea blanca",
-              "alt": "alt img",
-              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
-              "href": "https://example.com"
-            },
-            {
-              "title": "Electrodomésticos",
-              "alt": "alt img",
-              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
-              "href": "https://example.com"
-            },
-            {
-              "title": "Bocinas",
-              "alt": "alt img",
-              "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
-              "href": "https://example.com"
-            }
-          ]
+
+  "more-details#section-more": {
+    "props": {
+      "title": "Comodidad en casa para mamá",
+      "alt": "",
+      "image": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
+      "href": "https://example.com",
+      "images": [
+        {
+          "title": "Linea blanca",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
+          "href": "https://example.com"
+        },
+        {
+          "title": "Electrodomésticos",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
+          "href": "https://example.com"
+        },
+        {
+          "title": "Bocinas",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
+          "href": "https://example.com"
         }
-      },
-    
+      ]
+    }
+  },
+
   "blog-grid#blog-section": {
     "props": {
       "title": "Encuentra las mejores promociones para mamá",
       "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/copy.jpg",
       "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       "text2": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi."
+    }
+  },
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"]
+  },
+
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   }
 }
