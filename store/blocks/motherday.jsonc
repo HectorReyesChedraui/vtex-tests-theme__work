@@ -7,7 +7,6 @@
       "header-banner#section-header",
       "grid-sales#section-sales",
       "gallery-grid#section-gallery",
-      "list-context.product-list#demo1",
       "shelf-content#section-shelf-container",
       "monsory-grid#section-monsory",
       "more-details#section-more",
@@ -148,10 +147,44 @@
 
   "shelf-content#section-shelf-container": {
     "props": {
-      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg"
-    }
+      "titleText":"¡Un buen regalo para el día de la madre!",
+      "titleColor":"#fff",
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg",
+      "linkText": "Descubre más >",
+      "url":"https://example.com"
+      
+    },
+    "children": ["list-context.product-list#demo1"]
   },
 
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"]
+  },
+
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  
 
   "monsory-grid#section-monsory": {
     "props": {
@@ -229,36 +262,6 @@
       "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       "text2": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi."
     }
-  },
-
-  
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#demo1"],
-    "children": ["slider-layout#demo-products"]
-  },
-
-  "product-summary.shelf#demo1": {
-    "children": [
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
-  },
-
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
   }
-
 }
 
