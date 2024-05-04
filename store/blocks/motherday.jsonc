@@ -28,7 +28,7 @@
         },
         {
           "title": "titulo img",
-          "alt": "Alt img",
+          "alt": "Alt img",                
           "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg"
         }
@@ -50,7 +50,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
           "bgColor": "#f6f6f6",
@@ -61,7 +62,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
           "bgColor": "#f6f6f6",
@@ -72,7 +74,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
           "bgColor": "#f6f6f6",
@@ -83,7 +86,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
           "bgColor": "#f6f6f6",
@@ -94,7 +98,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         },
         {
           "bgColor": "#f6f6f6",
@@ -105,7 +110,8 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
         }
       ]
     }
