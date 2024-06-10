@@ -1,8 +1,6 @@
 {
-  "store.custom#pharmacy-landing-page": {
-    "path": "/farmacia-chedraui"
-  },
-  "store.custom#martimiercoles": {
-    "path": "/martimiercoles-chedraui"
+  "store.custom#motherday": {
+    "path": "/motherday-chedraui"
   }
+
 }

@@ -1,0 +1,273 @@
+{
+  "store.custom#motherday": {
+    "blocks": ["landing-layout#motherday-container"]
+  },
+  "landing-layout#motherday-container": {
+    "children": [
+      "header-banner#section-header",
+      "grid-sales#section-sales",
+      "gallery-grid#section-gallery",
+      "shelf-content#section-shelf-container",
+      "monsory-grid#section-monsory",
+      "more-details#section-more",
+      "blog-grid#blog-section"
+    ]
+  },
+
+  "header-banner#section-header": {
+    "props": {
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "titleColor": "#fff",
+      "images": [
+        {
+          "title": "titulo img",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg"
+        },
+        {
+          "title": "titulo img",
+          "alt": "Alt img",                
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg"
+        }
+      ]
+    }
+  },
+
+  "grid-sales#section-sales": {
+    "props": {
+      "title": "Un día especial para Mamá",
+      "titleColor": "#CE6E80",
+      "cards": [
+        {
+          "bgColor": "#f6f6f6",
+          "title": "20%",
+          "subtitle": "De descuento",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "20%",
+          "subtitle": "De descuento",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "Antes: $0,000",
+          "subtitle": "$000,000",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "2X1",
+          "subtitle": "$000,000",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "3X2",
+          "subtitle": "",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "3X2",
+          "subtitle": "",
+          "titleColor": "#DD756A",
+          "text": "En marcas seleccionadas",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+        }
+      ]
+    }
+  },
+
+  "gallery-grid#section-gallery": {
+    "props": {
+      "title": "Radiante en todo momento",
+      "titleColor": "#fff",
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo.jpg",
+      "images": [
+        {
+          "title": "Skin Care",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/Skin-Care.jpg"
+        },
+        {
+          "title": "Cosméticos",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cosmeticos.jpg"
+        },
+        {
+          "title": "Perfumes",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/perfume.jpg"
+        },
+        {
+          "title": "Cabello",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg"
+        }
+      ]
+    }
+  },
+
+  "shelf-content#section-shelf-container": {
+    "props": {
+      "titleText":"¡Un buen regalo para el día de la madre!",
+      "titleColor":"#fff",
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg",
+      "linkText": "Descubre más >",
+      "url":"https://example.com"
+      
+    },
+    "children": ["list-context.product-list#demo1"]
+  },
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"]
+  },
+
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  
+
+  "monsory-grid#section-monsory": {
+    "props": {
+      "title": "Mamá activa",
+      "titleColor": "#CE6E80",
+      "images": [
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/celulares.png",
+          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/movilCel.png",
+          "alt": "Imagen 1",
+          "title": "Celulares",
+          "href": "/ruta-destino-1"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/smartwathc.png",
+          "alt": "Imagen 2",
+          "title": "Smartwatch",
+          "href": "/ruta-destino-2"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/ejercicio.png",
+          "alt": "Imagen 3",
+          "title": "Aparatos de ejercicio",
+          "href": "/ruta-destino-3"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/bici.png",
+          "alt": "Imagen 4",
+          "title": "Bicicletas",
+          "href": "/ruta-destino-4"
+        },
+        {
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/audifonos.png",
+          "alt": "Imagen 5",
+          "title": "Audifonos",
+          "href": "/ruta-destino-5"
+        }
+      ]
+    }
+  },
+
+  "more-details#section-more": {
+    "props": {
+      "title": "Comodidad en casa para mamá",
+      "alt": "",
+      "image": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
+      "href": "https://example.com",
+      "images": [
+        {
+          "title": "Linea blanca",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
+          "href": "https://example.com"
+        },
+        {
+          "title": "Electrodomésticos",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
+          "href": "https://example.com"
+        },
+        {
+          "title": "Bocinas",
+          "alt": "alt img",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
+          "href": "https://example.com"
+        }
+      ]
+    }
+  },
+
+  "blog-grid#blog-section": {
+    "props": {
+      "title": "Encuentra las mejores promociones para mamá",
+      "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/copy.jpg",
+      "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
+      "text2": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi."
+    }
+  }
+}
+
