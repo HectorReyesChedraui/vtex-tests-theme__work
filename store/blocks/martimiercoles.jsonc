@@ -4,25 +4,27 @@
   },
   "landing-layout#martimiercoles-container": {
     "children": [
-      "banner-hero#section-banner",
+      "contador-vigencia",
       "banner-proveedor#section-banner-container",
       "product-list#section-product-list-container",
       "vegetables-vitrina",
-      "shelf-imagen#section-shelf-container",
-       "contador-vigencia"
+      "shelf-imagen#section-shelf-container"
+     
     ]
   },
-  "banner-hero#section-banner": {
+  "contador-vigencia": {
     "props": {
       "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
-      "title": "¡Los precios más dulces!",
-      "titleColor": "#fff"
+      "imgMobil":"https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg",
+      "title": "Descubre nuevas ofertas en",
+      "martiMiercolesTitle": "¡Los precios más dulces!"
     }
   },
 
   "banner-proveedor#section-banner-container":{
     "props": {
-    "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/snacks-banner.png"
+    "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/snacks-banner.png",
+    "imgMobile":"https://chedrauimxqa.vteximg.com.br/arquivos/snack-mobil.jpg"
   }
 },
 
@@ -149,14 +151,7 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
-  },
-
-  "contador-vigencia": {
-    "props": {
-      "title": "Descubre nuevas ofertas en",
-      "martiMiercolesTitle": "¡Los precios más dulces!",
-      "bgColor": "#80bc00"
-    }
   }
+
 
 } // end of
