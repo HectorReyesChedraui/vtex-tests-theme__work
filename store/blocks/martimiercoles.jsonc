@@ -9,129 +9,55 @@
       "product-list#section-product-list-container",
       "vegetables-vitrina",
       "shelf-imagen#section-shelf-container"
-     
     ]
   },
   "contador-vigencia": {
     "props": {
-      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
-      "imgMobil":"https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg",
       "title": "Descubre nuevas ofertas en",
-      "martiMiercolesTitle": "¡Los precios más dulces!"
+      "martiMiercolesTitle": "¡Los precios más dulces!",
+      "images":[
+        {
+          "title": "imagen",
+          "alt": "alt",
+          "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
+          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg"
+        }
+       
+      ]
     }
   },
 
-  "banner-proveedor#section-banner-container":{
+  "banner-proveedor#section-banner-container": {
     "props": {
-    "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/snacks-banner.png",
-    "imgMobile":"https://chedrauimxqa.vteximg.com.br/arquivos/snack-mobil.jpg"
-  }
-},
-
-"product-list#section-product-list-container":{
-  "props": {
-    "titleText": "Titulo de la vitrina",
-    "titleColor": "#000",
-    "linkText": "Descubre más >",
-    "linkColor": "#ED7511",
-    "url":"https://example.com"
+      "images":[
+        {
+          "srcDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/snack_desktop.png",
+          "srcMobile":"https://chedrauimxqa.vteximg.com.br/arquivos/snack_mobil.png",
+          "alt": "alt",
+          "title": "imagen",
+          "linkImg":"https://example.com"
+        }
+      ]
+    }
   },
-  "children": ["list-context.product-list#demo1"]
-},
-
-"list-context.product-list#demo1": {
-  "blocks": ["product-summary.shelf#demo1"],
-  "children": ["slider-layout#demo-products"]
-},
-
-"product-summary.shelf#demo1": {
-  "children": [
-    "product-summary-name",
-    "product-rating-inline",
-    "product-summary-space",
-    "product-summary-price",
-    "product-summary-buy-button"
-  ]
-},
-
-"slider-layout#demo-products": {
-  "props": {
-    "itemsPerPage": {
-      "desktop": 4,
-      "tablet": 3,
-      "phone": 2
-    },
-    "infinite": true,
-    "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
-  }
-},
-
- "vegetables-vitrina":{
-  "props": {
-    "titleText": "Titulo de la vitrina",
-    "titleColor": "#000",
-    "linkText": "Descubre más >",
-    "linkColor": "#ED7511",
-    "url":"https://example.com"
-  },
-  "children": ["list-context.product-list#demo2"]
-},
-
-"list-context.product-list#demo2": {
-  "blocks": ["product-summary.shelf#demo2"],
-  "children": ["slider-layout#demo-products-2"]
-},
-
-"product-summary.shelf#demo2": {
-  "children": [
-    "product-summary-name",
-    "product-rating-inline",
-    "product-summary-space",
-    "product-summary-price",
-    "product-summary-buy-button"
-  ]
-},
-
-"slider-layout#demo-products-2": {
-  "props": {
-    "itemsPerPage": {
-      "desktop": 4,
-      "tablet": 3,
-      "phone": 2
-    },
-    "infinite": true,
-    "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
-  }
-},
-
-  "shelf-imagen#section-shelf-container": {
+  
+  "product-list#section-product-list-container": {
     "props": {
-      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/backgroud2.jpg",
-      "titleText": "¡Un buen regalo para el día de la madre!",
+      "titleText": "Titulo de la vitrina",
       "titleColor": "#000",
-      "url": "https://example.com",
       "linkText": "Descubre más >",
       "linkColor": "#ED7511",
-      "activeTitle": true,
-      "activeLink": true,
-      "activeImage": true,
-      "image": {
-        "title": "Imagen 1",
-        "alt": "alt imagen",
-        "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/pepino-verde.png",
-        "href": "https://example.com"
-      }
+      "url": "https://example.com"
     },
-    "children": ["list-context.product-list#demo3"]
+    "children": ["list-context.product-list#demo1"]
   },
 
-  "list-context.product-list#demo3": {
-    "blocks": ["product-summary.shelf#demo3"],
-    "children": ["slider-layout#demo-products3"]
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"]
   },
-  "product-summary.shelf#demo3": {
+
+  "product-summary.shelf#demo1": {
     "children": [
       "product-summary-name",
       "product-rating-inline",
@@ -140,7 +66,8 @@
       "product-summary-buy-button"
     ]
   },
-  "slider-layout#demo-products3": {
+
+  "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -151,7 +78,89 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
-  }
+  },
 
+  "vegetables-vitrina": {
+    "props": {
+      "titleText": "Titulo de la vitrina",
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
+    },
+    "children": ["list-context.product-list#demo2"]
+  },
 
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf#demo2"],
+    "children": ["slider-layout#demo-products-2"]
+  },
+
+  "product-summary.shelf#demo2": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+    "shelf-imagen#section-shelf-container": {
+      "props": {
+        "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/backgroud2.jpg",
+        "titleText": "¡Un buen regalo para el día de la madre!",
+        "titleColor": "#000",
+        "url": "https://example.com",
+        "linkText": "Descubre más >",
+        "linkColor": "#ED7511",
+        "activeTitle": true,
+        "activeLink": true,
+        "activeImage": true,
+        "image": {
+          "title": "Imagen 1",
+          "alt": "alt imagen",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/pepino-verde.png"
+        }
+      },
+      "children": ["list-context.product-list#demo3"]
+    },
+    "list-context.product-list#demo3": {
+      "blocks": ["product-summary.shelf#demo3"],
+      "children": ["slider-layout#demo-products3"]
+    },
+    "product-summary.shelf#demo3": {
+      "children": [
+        "product-summary-name",
+        "product-rating-inline",
+        "product-summary-space",
+        "product-summary-price",
+        "product-summary-buy-button"
+      ]
+    },
+    "slider-layout#demo-products3": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+      }
+    }
 } // end of
