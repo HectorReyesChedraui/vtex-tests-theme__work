@@ -14,6 +14,7 @@
     ]
   },
 
+
   "header-banner#section-header": {
     "props": {
       "bgImagen": "",
@@ -38,6 +39,31 @@
       ]
     }
   },
+ "header-banner#section-header": {
+  "props": {
+    "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "titleColor": "#fff",
+    "isTitleBold": true,
+    "images": [
+      {
+        "title": "titulo img",
+        "alt": "Alt img",
+        "href": "https://example.com",
+        "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg",
+        "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing-mobile.jpg"
+      },
+      {
+        "title": "titulo img",
+        "alt": "Alt img",
+        "href": "https://example.com",
+        "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg",
+        "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2-mobile.jpg"
+      }
+    ]
+  }
+},
+
 
   "grid-sales#section-sales": {
     "props": {
@@ -52,6 +78,7 @@
           "wordToHighlight": "Curitas Silver ",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
               "alt": "'Imagen 1'",
@@ -59,6 +86,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
@@ -68,6 +99,7 @@
           "wordToHighlight": "Corega",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
              "alt": "Imagen",
@@ -75,6 +107,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
@@ -84,6 +120,7 @@
           "wordToHighlight": "Sensodyne",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
              "alt": "Imagen",
@@ -91,6 +128,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
@@ -100,6 +141,7 @@
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
              "alt": "Imagen",
@@ -107,6 +149,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
@@ -116,6 +162,7 @@
           "wordToHighlight": "Bye Bites",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
              "alt": "Imagen",
@@ -123,6 +170,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
@@ -132,6 +183,7 @@
           "wordToHighlight": "Isdin",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
           "images": [
             {
              "alt": "Imagen",
@@ -139,6 +191,10 @@
               "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
             }
           ]
+=======
+          "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+          "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         }
       ]
     }
