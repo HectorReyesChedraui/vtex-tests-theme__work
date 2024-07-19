@@ -14,6 +14,31 @@
     ]
   },
 
+
+  "header-banner#section-header": {
+    "props": {
+      "bgImagen": "",
+      "title": "Por ti tenemos los mejores descuentos en farmacia en línea con Chedraui.",
+      "titleColor": "#000",
+      "isTitleBold": true,
+      "images": [
+        {
+          "title": "titulo img",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing.jpg",
+          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing-mobile.jpg"
+        },
+        {
+          "title": "titulo img",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2.jpg",
+          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/BH-Landing2-mobile.jpg"
+        }
+      ]
+    }
+  },
  "header-banner#section-header": {
   "props": {
     "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
@@ -39,82 +64,137 @@
   }
 },
 
+
   "grid-sales#section-sales": {
     "props": {
-      "title": "Un día especial para Mamá",
-      "titleColor": "#CE6E80",
+      "title": "Cuidado e higiene personal",
+      "titleColor": "#000",
       "cards": [
         {
           "bgColor": "#f6f6f6",
-          "title": "20%",
-          "subtitle": "De descuento",
+          "title": "2x$135",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
-          "wordToHighlight": "marcas",
+          "text": "Talco para pies Curitas Silver 150ml",
+          "wordToHighlight": "Curitas Silver ",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "'Imagen 1'",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
-          "title": "20%",
-          "subtitle": "De descuento",
+          "title": "16% De descuento",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
-          "wordToHighlight": "marcas",
+          "text": "Crema adhesiva Corega ultra 40 gr",
+          "wordToHighlight": "Corega",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+             "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
-          "title": "Antes: $0,000",
-          "subtitle": "$000,000",
+          "title": "2x$169",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
-          "wordToHighlight": "marcas",
+          "text": "Pasta dental Sensodyne Menta 113gr",
+          "wordToHighlight": "Sensodyne",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+             "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl2.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
-          "title": "2X1",
-          "subtitle": "$000,000",
+          "title": "Precio especial",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
+          "text": "Shampop Folicuré 700 ml",
           "wordToHighlight": "marcas",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+             "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/smxl.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
-          "title": "3X2",
-          "subtitle": "",
+          "title": "2x$159",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
-          "wordToHighlight": "marcas",
+          "text": "Repelente Bye Bites 130ml",
+          "wordToHighlight": "Bye Bites",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+             "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         },
         {
           "bgColor": "#f6f6f6",
-          "title": "3X2",
-          "subtitle": "",
+          "title": "15% descuento",
           "titleColor": "#DD756A",
-          "text": "En marcas seleccionadas",
-          "wordToHighlight": "marcas",
+          "text": "Productos Isdin",
+          "wordToHighlight": "Isdin",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
+
+          "images": [
+            {
+             "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+=======
           "imagenCard": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
           "imgMobil" :"https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+
         }
       ]
     }
@@ -130,26 +210,38 @@
           "title": "Skin Care",
           "alt": "Alt img",
           "href": "https://example.com",
-          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/Skin-Care.jpg"
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/Skin-Care.jpg",
+          "imgMobil":""
         },
         {
           "title": "Cosméticos",
           "alt": "Alt img",
           "href": "https://example.com",
-          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cosmeticos.jpg"
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cosmeticos.jpg",
+          "imgMobil":""
         },
         {
           "title": "Perfumes",
           "alt": "Alt img",
           "href": "https://example.com",
-          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/perfume.jpg"
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/perfume.jpg",
+          "imgMobil":""
         },
         {
           "title": "Cabello",
           "alt": "Alt img",
           "href": "https://example.com",
-          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg"
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg",
+          "imgMobil":""
+        },
+        {
+          "title": "Cabello",
+          "alt": "Alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/cabello.jpg",
+          "imgMobil":""
         }
+
       ]
     }
   },
@@ -159,8 +251,11 @@
       "titleText":"¡Un buen regalo para el día de la madre!",
       "titleColor":"#fff",
       "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg",
+      "showLink": true,
       "linkText": "Descubre más >",
+      "linkColor": "#fff",
       "url":"https://example.com"
+
       
     },
     "children": ["list-context.product-list#demo1"]
@@ -197,40 +292,42 @@
 
   "monsory-grid#section-monsory": {
     "props": {
-      "title": "Mamá activa",
+      "title": "Vitaminas y suplementos",
       "titleColor": "#CE6E80",
       "images": [
         {
-          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/celulares.png",
-          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/movilCel.png",
-          "alt": "Imagen 1",
-          "title": "Celulares",
-          "href": "/ruta-destino-1"
+          "alt": "Para Mujer",
+          "href": "https://www.chedraui.com.mx/promociones/suplementos-para-mujer",
+          "src": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_p1_farmacia_mujer.webp",
+          "imgMobil": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_p1-2_farmacia_mujer.webp"
+          
         },
         {
-          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/smartwathc.png",
-          "alt": "Imagen 2",
-          "title": "Smartwatch",
-          "href": "/ruta-destino-2"
+          "alt": "Óseo",
+          "href": "https://www.chedraui.com.mx/promociones/productos-para-los-huesos",
+          "src": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_p2_farmacia_oseo.webp",
+          "imgMobil": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_mobile_p2_farmacia_oseo.webp"
+
         },
         {
-          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/ejercicio.png",
-          "alt": "Imagen 3",
-          "title": "Aparatos de ejercicio",
-          "href": "/ruta-destino-3"
+          "alt": "Nutrición deportiva",
+          "href": "https://www.chedraui.com.mx/farmacia/naturistas/suplementos-naturistas",
+          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/cat_lp_p3_farmacia_nutricion.webp",
+          "imgMobil": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_mobile_p3_farmacia_nutricion.webp"
         },
         {
-          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/bici.png",
-          "alt": "Imagen 4",
-          "title": "Bicicletas",
-          "href": "/ruta-destino-4"
+          "alt": "Suplementos",
+          "href": "https://www.chedraui.com.mx/promociones/suplementos-alimenticios",
+          "src": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_p4_farmacia_suplementos.webp",
+          "imgMobil": "https://chedrauimx.vteximg.com.br/arquivos/Horizontal copia.webp"
         },
         {
-          "src": "https://chedrauimxqa.vteximg.com.br/arquivos/audifonos.png",
-          "alt": "Imagen 5",
-          "title": "Audifonos",
-          "href": "/ruta-destino-5"
+          "alt": "Vitamínicos",
+          "href": "https://www.chedraui.com.mx/farmacia/vitaminas-y-suplementos/vitaminas",
+          "src": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_p5_farmacia_vitaminicos.webpg",
+          "imgMobil": "https://chedrauimx.vteximg.com.br/arquivos/cat_lp_mobile_p5_farmacia_vitaminicos.webp"
         }
+        
       ]
     }
   },
@@ -238,27 +335,33 @@
   "more-details#section-more": {
     "props": {
       "title": "Comodidad en casa para mamá",
-      "alt": "",
-      "image": "https://chedrauimxqa.vteximg.com.br/arquivos/Fondo-comodidad.jpg",
-      "href": "https://example.com",
+      "bgImage": "",
+      "url": "https://example.com",
+      "text1": "Descubre más >",
+      "showLink": true,
+      "linkBgColor": "",
+      "linkTextColor": "#000",
       "images": [
         {
           "title": "Linea blanca",
           "alt": "alt img",
+          "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
-          "href": "https://example.com"
+          "imgMobil":""
         },
         {
           "title": "Electrodomésticos",
           "alt": "alt img",
+          "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
-          "href": "https://example.com"
+          "imgMobil":""
         },
         {
           "title": "Bocinas",
           "alt": "alt img",
+          "href": "https://example.com",
           "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
-          "href": "https://example.com"
+          "imgMobil":""
         }
       ]
     }
@@ -268,6 +371,7 @@
     "props": {
       "title": "Encuentra las mejores promociones para mamá",
       "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/copy.jpg",
+      "imgMobil":"https://chedrauimxqa.vteximg.com.br/arquivos/Copy_lp_Mobile_p1_mama_300424.webp",
       "text1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
       "text2": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi."
     }
