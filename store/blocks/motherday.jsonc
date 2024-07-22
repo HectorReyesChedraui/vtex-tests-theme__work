@@ -137,7 +137,6 @@
           "wordToHighlight": "Isdin",
           "url": "https://example.com",
           "linkText": "COMPRAR >",
-
           "images": [
             {
               "alt": "Imagen",
@@ -197,7 +196,7 @@
 
   "shelf-content#section-shelf-container": {
     "props": {
-      "titleText": "¡Un buen regalo para el día de la madre!",
+      "titleText": "Arma tu botiquín",
       "titleColor": "#fff",
       "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-consintiendo-a-mama.jpg",
       "showLink": true,
@@ -277,7 +276,7 @@
 
   "more-details#section-more": {
     "props": {
-      "title": "Comodidad en casa para mamá",
+      "title": "Salud íntima y bienestar",
       "bgImage": "",
       "url": "https://example.com",
       "text1": "Descubre más >",
