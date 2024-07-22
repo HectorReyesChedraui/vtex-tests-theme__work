@@ -19,8 +19,8 @@
         {
           "title": "imagen",
           "alt": "alt",
-          "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
-          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg"
+          "srcDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
+          "srcMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg"
         }
        
       ]

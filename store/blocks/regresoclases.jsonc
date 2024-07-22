@@ -4,49 +4,47 @@
   },
   "landing-layout#regresoclases-container": {
     "children": [
-      "slider-imagen#section-carrucel-img",
-      "slider-hero#section-slider-hero"
-  ]
-  },
-  "slider-imagen#section-carrucel-img": {
-    "children": ["list-context.image-list#demo"]
+      "slider-hero#section-slider-hero",
+      "slider-grid-category#section-category",
+      "vitrina-office",
+      "grid-cards#section-cards",
+      "text-seo#section-seo",
+      "product-collection",
+      "product-banner#section-banner-product"
+    ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "slider-hero#section-slider-hero": {
     "props": {
-      "height": 650,
+      "useBgColor": false,
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
+      "bgColor": "",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "titleColor": "#fff",
+      "isTitleBold": true,
       "images": [
         {
-          "srcDesktop": "https://storecomponents.vteximg.com.br/files/banner-infocard2.png"
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
+          "alt": "Imagen 1",
+          "linkImg": "#"
         },
         {
-          "srcDesktop": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png"
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
+          "alt": "Imagen 2",
+          "linkImg": "#"
+        },
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
+          "alt": "Imagen 3",
+          "linkImg": "#"
         }
       ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true
-    }
-  },
-
-  "slider-hero#section-slider-hero":{
-    "props": {
-    "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/banner_hero.svg",
-    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "titleColor": "#fff",
-    "isTitleBold": true
     },
     "children": ["list-context.image-list#demo1"]
   },
-
   "list-context.image-list#demo1": {
     "children": ["slider-layout#demo-images1"],
     "props": {
@@ -73,24 +71,239 @@
       },
       "infinite": true
     }
+  },
+
+  "slider-grid-category#section-category": {
+    "props": {
+      "title": "Lo mejor",
+      "titleColor": "#000",
+      "images": [
+        {
+          "alt": "something something",
+          "linkImg": "https://example.com",
+          "srcDesktop": "",
+          "srcMobil": ""
+        },
+        {
+          "alt": "something something",
+          "linkImg": "https://example.com",
+          "srcDesktop": "",
+          "srcMobil": ""
+        },
+        {
+          "alt": "something something",
+          "linkImg": "https://example.com",
+          "srcDesktop": "",
+          "srcMobil": ""
+        }
+      ]
+    }
+  },
+
+  "vitrina-office": {
+    "props": {
+      "titleText": "Oficina",
+      "titleColor": "#000"
+    },
+    "children": ["list-context.product-list#demo4"]
+  },
+
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf#demo4"],
+    "children": ["slider-layout#demo-products-4"]
+  },
+
+  "product-summary.shelf#demo4": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "grid-cards#section-cards": {
+    "props": {
+      "title": "Cuidado e higiene personal",
+      "titleColor": "#000",
+      "cards": [
+        {
+          "bgColor": "#f6f6f6",
+          "title": "2x$135",
+          "titleColor": "#DD756A",
+          "text": "Talco para pies Curitas Silver 150ml",
+          "wordToHighlight": "Curitas Silver ",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "'Imagen 1'",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "16% De descuento",
+          "titleColor": "#DD756A",
+          "text": "Crema adhesiva Corega ultra 40 gr",
+          "wordToHighlight": "Corega",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "2x$169",
+          "titleColor": "#DD756A",
+          "text": "Pasta dental Sensodyne Menta 113gr",
+          "wordToHighlight": "Sensodyne",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "Precio especial",
+          "titleColor": "#DD756A",
+          "text": "Shampop Folicuré 700 ml",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "2x$159",
+          "titleColor": "#DD756A",
+          "text": "Repelente Bye Bites 130ml",
+          "wordToHighlight": "Bye Bites",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "title": "15% descuento",
+          "titleColor": "#DD756A",
+          "text": "Productos Isdin",
+          "wordToHighlight": "Isdin",
+          "url": "https://example.com",
+          "linkText": "COMPRAR >",
+
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "text-seo#section-seo": {
+    "props": {
+      "titleText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "titleColor": "#000",
+      "srcDesktop": "",
+      "srcMobil": "",
+      "descriptionOne": "Texto adicional que se mostrará debajo del título.",
+      "descriptionTwo": "Texto adicional que se mostrará debajo del título."
+    }
+  },
+
+  "product-collection": {
+    "props": {
+      "titleText": "Oficina",
+      "titleColor": "#000"
+    },
+    "children": ["list-context.product-list#demo5"]
+  },
+
+  "list-context.product-list#demo5": {
+    "blocks": ["product-summary.shelf#demo5"],
+    "children": ["slider-layout#demo-products-5"]
+  },
+
+  "product-summary.shelf#demo5": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-5": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "product-banner#section-banner-product": {
+    "props": {
+      "images": [
+        {
+          "srcDesktop": "",
+          "srcMobile": "",
+          "alt": "alt",
+          "linkImg": "https://example.com"
+        }
+      ]
+    }
   }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 } // end store

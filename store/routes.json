@@ -1,10 +1,14 @@
 {
+  "store.custom#motherday": {
+    "path": "/motherday-chedraui"
+  },
+
   "store.custom#martimiercoles": {
     "path": "/martimiercoles-chedraui"
   },
-
   "store.custom#regresoclases": {
     "path": "/regresoclases-chedraui"
   }
+  
   
 }
