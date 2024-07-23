@@ -8,6 +8,9 @@
   },
   "store.custom#regresoclases": {
     "path": "/regresoclases-chedraui"
+  },
+  "store.custom#fiestaspatrias": {
+    "path": "/fiestaspatrias-chedraui"
   }
   
   

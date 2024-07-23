@@ -1,0 +1,96 @@
+{
+  "store.custom#fiestaspatrias": {
+    "blocks": ["landing-layout#fiestaspatrias-container"]
+  },
+  "landing-layout#fiestaspatrias-container": {
+    "children": ["slider-category", "slider-logo#section-logo-slider"]
+  },
+
+  "slider-category": {
+    "props": {
+      "images": [
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/cerveza.jpg",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/cerveza.jpg",
+          "alt": "Imagen 1",
+          "linkImg": "#",
+          "width": "289",
+          " height": "119"
+        },
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/ron.jpg",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/ron.jpg",
+          "alt": "Imagen 2",
+          "linkImg": "#",
+          "width": "289",
+          " height": "119"
+        },
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/tequila.jpg",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/tequila.jpg",
+          "alt": "Imagen 3",
+          "linkImg": "#",
+          "width": "289",
+          " height": "119"
+        },
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/tequila.jpg",
+          "srcMobil": "https://storecomponents.vteximg.com.br/files/tequila.jpg",
+          "alt": "Imagen 3",
+          "linkImg": "#",
+          "width": "289",
+          " height": "119"
+        }
+      ]
+    }
+  },
+
+  "slider-logo#section-logo-slider": {
+    "props": {
+        "isTitleBold": true,
+        "title": "Por ti tenemos los mejores descuentos en línea con Chedraui",
+        "titleColor": "#fff",
+        "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo1.jpg",
+        "images": [
+          {
+            "alt": "Imagen 1",
+            "href": "#",
+            "imgDesktop": "https://storecomponents.vteximg.com.br/files/logo.png",
+            "imgMobil": "https://storecomponents.vteximg.com.br/files/Logo-Mobile.png"
+          }
+        ]
+    },
+
+    "children": ["list-context.image-list#demo2"]
+  },
+  "list-context.image-list#demo2": {
+    "children": ["slider-layout#demo-images2"],
+    "props": {
+      "height": 350,
+      "images": [
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh.jpg"
+        },
+        {
+          "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    }
+  }
+
+
+} //end of

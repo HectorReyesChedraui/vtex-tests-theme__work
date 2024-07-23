@@ -27,19 +27,28 @@
           "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
           "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
           "alt": "Imagen 1",
-          "linkImg": "#"
+          "linkImg": "#",
+          "width": "329",
+         " height": "119"
+
         },
         {
           "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
           "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
           "alt": "Imagen 2",
-          "linkImg": "#"
+          "linkImg": "#",
+          "width": "329",
+          " height": "119"
+ 
         },
         {
           "srcDesktop": "https://storecomponents.vteximg.com.br/files/bh1.png",
           "srcMobil": "https://storecomponents.vteximg.com.br/files/bh1-mobile.png",
           "alt": "Imagen 3",
-          "linkImg": "#"
+          "linkImg": "#",
+          "width": "329",
+          " height": "119"
+ 
         }
       ]
     },
@@ -69,7 +78,11 @@
         "tablet": 1,
         "phone": 1
       },
-      "infinite": true
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
     }
   },
 
