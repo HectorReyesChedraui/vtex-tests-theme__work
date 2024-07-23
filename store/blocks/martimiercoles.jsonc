@@ -19,8 +19,8 @@
         {
           "title": "imagen",
           "alt": "alt",
-          "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
-          "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg"
+          "srcDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/bannerMM.webp",
+          "srcMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/banner-mobil1.jpg"
         }
        
       ]
@@ -121,15 +121,16 @@
 
     "shelf-imagen#section-shelf-container": {
       "props": {
+        "activeImage": true,
+        "bgColor": "",
         "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/backgroud2.jpg",
-        "titleText": "¡Un buen regalo para el día de la madre!",
+        "activeTitle": true,
+        "titleText": "Título ensaladas y cocteles",
         "titleColor": "#000",
-        "url": "https://example.com",
+        "activeLink": true,
         "linkText": "Descubre más >",
         "linkColor": "#ED7511",
-        "activeTitle": true,
-        "activeLink": true,
-        "activeImage": true,
+        "url": "https://example.com",
         "image": {
           "title": "Imagen 1",
           "alt": "alt imagen",
