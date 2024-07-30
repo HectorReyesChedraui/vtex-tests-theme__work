@@ -3,7 +3,17 @@
     "blocks": ["landing-layout#fiestaspatrias-container"]
   },
   "landing-layout#fiestaspatrias-container": {
-    "children": ["slider-category", "slider-logo#section-logo-slider"]
+    "children": [
+      "slider-category",
+      "slider-logo#section-logo-slider",
+      "grid-cards-two#section-cards-two",
+      "collection-one",
+      "collection-banners",
+      "collection-two",
+      "small-slider#section-slider",
+      "collection-three",
+      "text-seo-two#section-seo-text"
+    ]
   },
 
   "slider-category": {
@@ -47,18 +57,18 @@
 
   "slider-logo#section-logo-slider": {
     "props": {
-        "isTitleBold": true,
-        "title": "Por ti tenemos los mejores descuentos en línea con Chedraui",
-        "titleColor": "#fff",
-        "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo1.jpg",
-        "images": [
-          {
-            "alt": "Imagen 1",
-            "href": "#",
-            "imgDesktop": "https://storecomponents.vteximg.com.br/files/logo.png",
-            "imgMobil": "https://storecomponents.vteximg.com.br/files/Logo-Mobile.png"
-          }
-        ]
+      "isTitleBold": true,
+      "title": "Por ti tenemos los mejores descuentos en línea con Chedraui",
+      "titleColor": "#fff",
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo1.jpg",
+      "images": [
+        {
+          "alt": "Imagen 1",
+          "href": "#",
+          "imgDesktop": "https://storecomponents.vteximg.com.br/files/logo.png",
+          "imgMobil": "https://storecomponents.vteximg.com.br/files/Logo-Mobile.png"
+        }
+      ]
     },
 
     "children": ["list-context.image-list#demo2"]
@@ -90,7 +100,327 @@
         "stopOnHover": true
       }
     }
+  },
+
+  "grid-cards-two#section-cards-two": {
+    "props": {
+      "title": "Todo para tu comida de fiestas patrias",
+      "titleColor": "#000",
+      "cards": [
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "2x$135",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Talco para pies Curitas Silver 150ml",
+          "wordToHighlight": "Curitas Silver ",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+
+          "images": [
+            {
+              "alt": "'Imagen 1'",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "16% De descuento",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Crema adhesiva Corega ultra 40 gr",
+          "wordToHighlight": "Corega",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "2x$169",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Pasta dental Sensodyne Menta 113gr",
+          "wordToHighlight": "Sensodyne",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "Precio especial",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Shampop Folicuré 700 ml",
+          "wordToHighlight": "marcas",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "2x$159",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Repelente Bye Bites 130ml",
+          "wordToHighlight": "Bye Bites",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        },
+        {
+          "bgColor": "#f6f6f6",
+          "isPrecio":true,
+          "title": "15% descuento",
+          "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
+          "text": "Productos Isdin",
+          "wordToHighlight": "Isdin",
+          "url": "https://example.com",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
+          "images": [
+            {
+              "alt": "Imagen",
+              "imgDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/sm2.png",
+              "imgMobil": "https://chedrauimxqa.vteximg.com.br/arquivos/sm.png"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "collection-one": {
+    "props": {
+      "titleText": "Titulo de la vitrina",
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
+    },
+    "children": ["list-context.product-list#demo6"]
+  },
+
+  "list-context.product-list#demo6": {
+    "blocks": ["product-summary.shelf#demo6"],
+    "children": ["slider-layout#demo-products-6"]
+  },
+
+  "product-summary.shelf#demo6": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-6": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "collection-banners": {
+    "props": {
+      "title": "Titulo de la colección",
+      "titleColor": "#fff",
+      "bgImagen": "https://chedrauimxqa.vteximg.com.br/arquivos/fondo-preparate-desk.jpg",
+      "images": [
+        {
+          "alt": "alt",
+          "imagenDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/audio-.png",
+          "imgMobil": ""
+        },
+        {
+          "alt": "alt",
+          "imagenDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/jardins.png",
+          "imgMobil": ""
+        },
+        {
+          "alt": "alt",
+          "imagenDesktop": "https://chedrauimxqa.vteximg.com.br/arquivos/pantallas.png",
+          "imgMobil": ""
+        }
+      ]
+    }
+  },
+
+  "collection-two": {
+    "props": {
+      "titleText": "Titulo de la vitrina",
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
+    },
+    "children": ["list-context.product-list#demo7"]
+  },
+
+  "list-context.product-list#demo7": {
+    "blocks": ["product-summary.shelf#demo7"],
+    "children": ["slider-layout#demo-products-7"]
+  },
+
+  "product-summary.shelf#demo7": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-7": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "small-slider#section-slider": {
+    "props": {
+      "bgImage": "",
+"      bgImageMobile":"",
+      "title": "Salud íntima y bienestar",
+      "titleColor": "#fff",
+      "isText":true,
+      "text2": "Nombre del producto o promoción",
+      "textColor":"#fff",
+      "showLink": true,
+      "text1": "Descubre más >",
+      "linkTextColor": "#1277C8",
+      "url": "https://example.com",
+      "images": [
+        {
+          "title": "Linea blanca",
+          "alt": "alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/linea-blanca.png",
+          "imgMobil": ""
+        },
+        {
+          "title": "Electrodomésticos",
+          "alt": "alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/electrodomesticos.jpg",
+          "imgMobil": ""
+        },
+        {
+          "title": "Bocinas",
+          "alt": "alt img",
+          "href": "https://example.com",
+          "imagen": "https://chedrauimxqa.vteximg.com.br/arquivos/bocinas.jpg",
+          "imgMobil": ""
+        }
+      ]
+    }
+  },
+
+  "collection-three": {
+    "props": {
+      "titleText": "Titulo de la vitrina",
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
+    },
+    "children": ["list-context.product-list#demo8"]
+  },
+
+  "list-context.product-list#demo8": {
+    "blocks": ["product-summary.shelf#demo8"],
+    "children": ["slider-layout#demo-products-8"]
+  },
+
+  "product-summary.shelf#demo8": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "slider-layout#demo-products-8": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "text-seo-two#section-seo-text":{
+    "props": {
+      "titleText": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "titleColor": "#000",
+      "srcDesktop": "",
+      "srcMobil": "",
+      "descriptionOne":"Texto adicional que se mostrará debajo del título.",
+      "descriptionTwo":"Texto adicional que se mostrará debajo del título."
+    }
   }
-
-
 } //end of

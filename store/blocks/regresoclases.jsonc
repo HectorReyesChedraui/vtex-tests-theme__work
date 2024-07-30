@@ -116,7 +116,10 @@
   "vitrina-office": {
     "props": {
       "titleText": "Oficina",
-      "titleColor": "#000"
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
     },
     "children": ["list-context.product-list#demo4"]
   },
@@ -156,12 +159,16 @@
       "cards": [
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "2x$135",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Talco para pies Curitas Silver 150ml",
           "wordToHighlight": "Curitas Silver ",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
 
           "images": [
             {
@@ -173,13 +180,16 @@
         },
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "16% De descuento",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Crema adhesiva Corega ultra 40 gr",
           "wordToHighlight": "Corega",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
-
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
           "images": [
             {
               "alt": "Imagen",
@@ -190,13 +200,16 @@
         },
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "2x$169",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Pasta dental Sensodyne Menta 113gr",
           "wordToHighlight": "Sensodyne",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
-
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
           "images": [
             {
               "alt": "Imagen",
@@ -207,13 +220,16 @@
         },
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "Precio especial",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Shampop Folicuré 700 ml",
           "wordToHighlight": "marcas",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
-
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
           "images": [
             {
               "alt": "Imagen",
@@ -224,13 +240,16 @@
         },
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "2x$159",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Repelente Bye Bites 130ml",
           "wordToHighlight": "Bye Bites",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
-
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
           "images": [
             {
               "alt": "Imagen",
@@ -241,13 +260,16 @@
         },
         {
           "bgColor": "#f6f6f6",
+          "isPrecio":true,
           "title": "15% descuento",
           "titleColor": "#DD756A",
+          "priceOriginal":" $3,095",
+          "priceDiscounted":" $2,895",
           "text": "Productos Isdin",
           "wordToHighlight": "Isdin",
           "url": "https://example.com",
-          "linkText": "COMPRAR >",
-
+          "linkText": "Comprar >",
+          "linkColor": "#1277C8",
           "images": [
             {
               "alt": "Imagen",
@@ -274,7 +296,10 @@
   "product-collection": {
     "props": {
       "titleText": "Oficina",
-      "titleColor": "#000"
+      "titleColor": "#000",
+      "linkText": "Descubre más >",
+      "linkColor": "#ED7511",
+      "url": "https://example.com"
     },
     "children": ["list-context.product-list#demo5"]
   },
